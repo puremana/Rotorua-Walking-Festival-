@@ -1,0 +1,130 @@
+.hidden.menu {
+  display: none;
+}
+.ui.inverted.segment:first-child, .ui.primary.inverted.segment:first-child {
+	background-image: url('img/background.jpg');
+	background-size: cover;
+}
+.margin {
+	margin-top: 6em;
+	margin-bottom: 2em;
+}
+.margin .header {
+	color: #bf4126;
+}
+.question {
+	color: orange;
+}
+.answer {
+	color: green;
+}
+.contact, .maps {
+	overflow-y: hidden;
+}
+/*.contact .margin {
+	padding-bottom: 10em;
+}
+.maps .margin {
+	padding-bottom: 7em;
+}
+.news .margin {
+	padding-bottom: 2em;
+}*/
+.masthead.segment {
+  min-height: 250px;
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0em;
+}
+.masthead h1.ui.header {
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+  text-shadow: 1px 0 1px #000, 0 -1px 1px #000, 0 1px 1px #000, -1px 0 1px #000;
+}
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+  margin-bottom: 1em;
+  text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+  padding-top: 5em;
+}
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+  margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1em;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+  padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 1em;
+  padding-bottom: 5em;
+}
+.special {
+	margin-top: -30px;
+	margin-bottom: -10px;
+}
+.footer {
+	text-align: center;
+}
+.footer-text {
+	padding-bottom: 3%;
+	width: 54%;
+	margin: 0 auto 0 auto;
+}
+.footer.segment {
+  padding: 5em 0em;
+}
+.copyright {
+	padding-top: 2%;
+	opacity: 0.4;
+}
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+	display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+	display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+	display: block;
+  }
+  .masthead.segment {
+	min-height: 350px;
+  }
+  .masthead h1.ui.header {
+	font-size: 2em;
+	margin-top: 1.5em;
+  }
+  .masthead h2 {
+	margin-top: 0.5em;
+	font-size: 1.5em;
+  }
+}
